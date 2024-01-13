@@ -1,0 +1,65 @@
+body{
+    height: 41.5rem;
+    background: linear-gradient(60deg, pink, lightblue, pink);
+    background-repeat: no-repeat;
+    font-family: Times New Roman;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.wrapper{
+  border: none;
+  border-radius: 1rem;
+  padding: 5rem;
+  background: black;
+  color: white;
+}
+
+.container{
+  border: none;
+  border-radius: 1rem;
+  padding: 1rem;
+  background: linear-gradient(130deg, #101924, #203248);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  filter: blur(2px);
+  transition: 0.8s;
+}
+
+.container:hover{
+  filter: blur(0px);
+  }
+
+button{
+    width: 5rem;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+  }
+  
+#pndt1{
+    background: linear-gradient(blue, navy, blue);
+    color: white;
+    transition: all 1s ease-in-out;
+  }
+  
+#pndt2{
+    background: linear-gradient(crimson, maroon, crimson);
+    color: white;
+    transition: all 1s ease-in-out;
+  }
+  
+#pndt3{
+    background: linear-gradient(violet, purple, violet);
+    color: white;
+    transition: all 1s ease-in-out;
+  }
+  
+#pndt1:hover, #pndt2:hover, #pndt3:hover{
+    border-radius: 1rem;
+    transform: scale(2.2);
+    box-shadow: 0 0 20px white;
+  }
